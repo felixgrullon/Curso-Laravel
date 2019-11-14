@@ -11,6 +11,9 @@
 
         <!-- Styles -->
         <style>
+
+
+
             html, body {
                 background-color: #fff;
                 color: #636b6f;
@@ -60,9 +63,15 @@
 
             .m-b-md {
                 margin-bottom: 30px;
+
+
+
             }
         </style>
     </head>
+    <header>
+    @yield('header')
+    </header>
     <body>
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))

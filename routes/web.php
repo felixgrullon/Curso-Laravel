@@ -31,3 +31,6 @@ Route::get('controller','TestController@index');
 Route::get('user/{user}','UserController@show');
 
 // Route::get('controller/{action}','TestController@');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
